@@ -146,11 +146,22 @@ h2.our-bg {
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  background: #32cd32;
+  background:#B9FF66;
   color: white;
   cursor: pointer;
   font-weight: bold;
 }
+.accordion-header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #F3F3F3;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 
 .accordion-header h3 {
   font-size: 1rem;
