@@ -422,6 +422,25 @@ button:hover {
 .footer-bottom a:hover {
   text-decoration: underline;
 }
+@media (max-width: 992px) {
+  .theme-btn-outlined {
+    display: none;
+  }
+
+  /* Ensures navbar links are vertically aligned under the toggler */
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stacks the links vertically */
+    gap: 10px; /* Adds spacing between links */
+  }
+
+  .navbar-toggler {
+    margin-bottom: 10px; /* Adds spacing below the toggler */
+  }
+}
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .service-cards {
