@@ -147,10 +147,16 @@ h2.our-bg {
   align-items: center;
   padding: 15px 20px;
   background:#B9FF66;
-  color: white;
+  color: #000000;
   cursor: pointer;
   font-weight: bold;
 }
+
+.accordion-header h3{
+  font-weight: 800;
+  font-size: 2rem;
+}
+
 .accordion-header1 {
   display: flex;
   justify-content: space-between;
@@ -163,8 +169,8 @@ h2.our-bg {
 }
 
 
-.accordion-header h3 {
-  font-size: 1rem;
+.accordion-header1 h3 {
+  font-size: 2rem;
 }
 
 .accordion-content {
