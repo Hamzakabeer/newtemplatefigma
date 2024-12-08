@@ -75,7 +75,7 @@
   text-align: center;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-width: 350px;
+  min-width: 280px;
 }
 
 .card2 {
@@ -87,7 +87,7 @@
   text-align: center;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-width: 350px;
+  min-width: 280px;
 }
 
 .card2 >img{
