@@ -244,7 +244,7 @@ h2.our-bg {
 
 .toggle-options input[type="radio"] {
   margin-right: 5px;
-  accent-color: #32cd32;
+  
 }
 
 .form-group {
@@ -283,9 +283,7 @@ button {
   transition: background 0.3s ease;
 }
 
-button:hover {
-  background: #32cd32;
-}
+
 
 /* Image Section */
 .form-image {
@@ -463,7 +461,9 @@ button:hover {
   .accordion-header h3 {
       font-size: 0.9rem;
   }
-
+.accordion-header1 h3{
+  font-size: 0.9rem;
+}
   .accordion-content {
       font-size: 0.8rem;
   }
